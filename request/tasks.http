@@ -1,0 +1,44 @@
+
+
+GET http://localhost:3000/api/tasks
+
+###
+
+GET http://localhost:3000/api/tasks?size=2&page=0
+
+
+###
+POST http://localhost:3000/api/tasks
+Content-Type: application/json
+
+{
+"id":1,
+"name":"GrillStar Barbacoa",
+"foto":"https://www.dropbox.com/s/ikg404bul5htmj1/grillstart.jpg?dl=1",
+"descripcion":"Cuenco esmaltado, Con ruedas para el transporte, Bandeja para las cenizas, Permite el asado indirecto.",
+"precio":"34.99",
+"primero":"29.99",
+"segundo":"40.50"
+}
+
+
+###
+GET http://localhost:3000/api/tasks/616a015f539f1470f412d392
+
+###
+
+DELETE http://localhost:3000/api/tasks/61794f8afd6b4f1d0e3a5b78
+
+###
+
+GET http://localhost:3000/api/tasks/done
+
+###
+
+PUT http://localhost:3000/api/tasks/616d9d8fcaa5ac35ceba6c88
+Content-Type: application/json
+
+{
+    "title": "Trabajo en casa"
+}
+
