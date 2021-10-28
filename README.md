@@ -16,4 +16,4 @@ POST: para postear algo en mi API no he puesto campos obligatorios porque como d
 DELETE: http://217.71.207.223:3000/api/tasks/_id para borrar un campo teneis que sustituir el _id por el el numero que aparece en ese campo en el objeto que quereis borrar 
 PUT: para put lo mismo que en POST al no tener campos obligatorios pues poedeis modificar el campo que querais sin necesidad de tener ninguno en cuenta
 
-
+NOTA: Tener en cuenta que no he comprado un dominio porque no se cuanto tiempo voy a mantener operativa la API REST ya que a partir del segundo mes me van a cobrar dinero por tener el servidor con mi API si entras al link y no funciona ya sabes porque es. Un saludo y gracias.
